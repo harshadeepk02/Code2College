@@ -40,9 +40,9 @@ def smalltalk():
   if response == 1:
     answer = input("Did you do anything interesting today? ")
     if "no" in answer:
-      print("Ah, just an average boring day then? Me too...")
+      print("Ah, just an average boring day then? Me too..." + "\n")
     else:
-      print("Huh, that sounds like it was fun!")
+      print("Huh, that sounds like it was fun!" + "\n")
       
   if response == 2:
     option = random.randint(1,3)
@@ -86,7 +86,10 @@ def generic():
   wait = input("Anything else you wanna talk about? ")
   while repeat == True:
     rand = random.randint(1,4)
-    if rand == 1:
+    if "no" in wait:
+      print("Okay, thanks for chatting!")
+      break
+    elif rand == 1:
       print("That's cool!")
     elif rand == 2:
       print("Wow!")
