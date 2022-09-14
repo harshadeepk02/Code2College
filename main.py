@@ -94,7 +94,7 @@ def generic():
       print("Oh really?")
     elif rand == 4:
       print("Interesting...")
-    wait = input("Tell me more!")
+    wait = input("Tell me more! ")
     print("\n")
     
     
