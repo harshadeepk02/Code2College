@@ -1,12 +1,17 @@
-# Code2College
-Code2College Elite101 PreWork
+# Introduction
 
-# Testing changes
-checking to see if updating the readme file works
 
-# Finished chatbot
-completed the code for the chatbot
-see main.py for the code
+This is a repository created by *Harshadeep*
 
-# Testing Branches
-Creating a new branch and merging it with the main branch to see if it works
+
+## Usage
+
+
+Run this command to execute the application:
+
+
+`python filename.py`
+
+ 
+
+```
