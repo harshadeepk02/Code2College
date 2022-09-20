@@ -2,7 +2,7 @@
 
 
 This is a repository created by *Harshadeep*
-this is a conflict with the conflict branch
+conflict resolved
 
 ## Usage
 
